@@ -1,0 +1,6 @@
+WASP-107b :
+  indir : 'wasp-107b/'
+  name : 'WASP-107b'
+  period : 5.72148926
+  IDs : ['1185o8','1280o1','1201o8','1224o3','1185o9']
+  instrument : ['NIRCam F322W2', 'MIRI LRS', 'NIRISS SOSS', 'NIRSpec', 'NIRCam F444W']

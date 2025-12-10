@@ -1,0 +1,3 @@
+name,median,+1 sigma,-1 sigma,epoch,ID,path
+WASP-107b,2460776.9199578585,0.0002020578831434,0.0002028350718319,0,DDT085,wasp-107b/tess/6/S5_emcee_fitparams_ch0.csv
+WASP-107b,2460794.084387595,0.0002073524519801,0.0002075536176562,3,DDT085,wasp-107b/tess/7/S5_emcee_fitparams_ch0.csv

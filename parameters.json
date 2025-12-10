@@ -1,0 +1,73 @@
+{
+  "WASP-107b": {
+    "star": {
+      "Teff": {
+        "value": 4425,
+        "uncertainty": [70],
+        "reference": "Caroline Piaulet et al 2021"
+      },
+      "Metallicity": {
+        "value": 0.020,
+        "uncertainty": [0.090],
+        "reference": "Caroline Piaulet et al 2021"
+      },
+      "logg": {
+        "value": 	4.633,
+        "uncertainty": [0.012],
+        "reference": "Caroline Piaulet et al 2021"
+      },
+      "mass": {
+        "value": 0.683,
+        "uncertainty": [0.017,0.016],
+        "reference": "Caroline Piaulet et al 2021"
+      },
+      "radius": {
+        "value": 0.67,
+        "uncertainty": [0.02],
+        "reference": "Caroline Piaulet et al 2021"
+      }
+    },
+    "planetb": {
+      "Rp/Rs": {
+        "value": 0.1446,
+        "uncertainty": [0.0002],
+        "reference": "A. Kokori et al 2023"
+      },
+      "period": {
+        "value": 5.72148926,
+        "uncertainty": [0.00000085],
+        "reference": "A. Kokori et al 2023"
+      },
+      "Tc": {
+        "value": 2457515.672118,
+        "uncertainty": [0.000075],
+        "reference": "A. Kokori et al 2023"
+      },
+      "a/Rs": {
+        "value": 17.96,
+        "uncertainty": [0.05],
+        "reference": "A. Kokori et al 2023"
+      },
+      "inclination": {
+        "value": 	89.56,
+        "uncertainty": [0.08],
+        "reference": "A. Kokori et al 2023"
+      },
+      "eccentricity": {
+        "value": 0.06,
+        "uncertainty": [0.04],
+        "reference": "Caroline Piaulet et al 2021"
+      },
+      "mass": {
+        "value": 0.0960,
+        "uncertainty": [0.0050],
+        "reference": "Caroline Piaulet et al 2021"
+      },
+      "radius": {
+        "value": 0.924,
+        "uncertainty": [0.022],
+        "reference": "Močnik et al. 2017"
+      }
+    }
+  }
+}

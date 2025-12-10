@@ -1,0 +1,53 @@
+# Eureka! Control File for Stage 3: Data Reduction
+
+# Stage 3 Documentation: https://eurekadocs.readthedocs.io/en/latest/ecf.html#stage-3
+
+ncpu            24
+nfiles          100
+max_memory      0.5
+suffix          calints
+
+# Subarray region of interest
+ywindow         [5, 64]
+xwindow         [15, 1709]
+src_pos_type    gaussian
+record_ypos     True
+poly_wavelength	True
+
+# Outlier rejection along time axis
+ff_outlier      False
+bg_thresh       [10,10]
+
+# Background parameters
+bg_hw           14
+bg_deg          1
+p3thresh        7
+
+# Spectral extraction parameters
+spec_hw         9
+fittype         meddata
+median_thresh   5
+window_len      13
+prof_deg        3
+p5thresh        10
+p7thresh        10
+
+# Curvature treatment
+curvature       correct
+# Diagnostics
+isplots_S3      5           # Generate few (1), some (3), or many (5) figures (Options: 1 - 5)
+nplots          5           # How many of each type of figure do you want to make per file?
+vmin            0.97        # Sets the vmin of the color bar for Figure 3101.
+vmax            1.03        # Sets the vmax of the color bar for Figure 3101.
+time_axis       'y'         # Determines whether the time axis in Figure 3101 is along the y-axis ('y') or the x-axis ('x')
+testing_S3      False       # Boolean, set True to only use last file and generate select figures
+hide_plots      True       # If True, plots will automatically be closed rather than popping up
+save_output     True        # Save outputs for use in S4
+verbose         True        # If True, more details will be printed about steps
+
+# Project directory
+topdir	./Stage2/
+
+# Directories relative to topdir
+inputdir		./S2_2025-05-14_wasp-107b_run1/	
+outputdir	../Stage3-RE

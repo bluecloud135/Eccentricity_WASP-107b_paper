@@ -1,0 +1,41 @@
+
+Starting Stage 5: Light Curve Fitting
+
+Eureka! Version: 1.2.2.dev0+g8f2dd20a.d20250522
+Input directory: ./Stage4/ap5_bg11/
+Output directory: ./Stage5/S5_2025-06-11_wasp-107b_run1/ap5_bg11/
+Copying S5 control file
+Copying S5 parameter control file
+Manually removing data points from meta.manual_clip...
+
+Starting Channel 0 of 1
+
+=========================
+Starting emcee fit.
+No covariance matrix from LSQ - falling back on a step size based on the prior range
+Starting lnprob: -19512.84095523279
+Running emcee burn-in and production steps...
+Ending lnprob: 2534.0954869140855
+Mean acceptance fraction: 0.301
+Mean autocorrelation time: 311.921 steps
+Reduced Chi-squared: 1.0084530461874806
+
+EMCEE RESULTS:
+rp: 0.1458099804559528 (+0.00197632800378178, -0.0019051847199483551)
+t0: 2460776.9199578585 (+0.000202057883143425, -0.0002028350718319416)
+inc: 89.4131986977253 (+0.3858535867804136, -0.4041234306286867)
+a: 18.026962506883095 (+0.2890308411941689, -0.42437618032350244)
+u1: 0.22700778476866962 (+0.18325544624155482, -0.08690876641461875)
+u2: 0.5851549031082945 (+0.258499417447948, -0.23728957940591283)
+c0: 1.0033390397228825 (+6.327186949528496e-05, -6.306950004741907e-05)
+c1: -0.000426896621528928 (+0.0003042947655869876, -0.0003014491898705984)
+ypos: 0.00024635944745672947 (+0.09994401536599763, -0.09992951226425907)
+ywidth: -0.049555983653833735 (+9.97030917771159, -9.715575989092388)
+scatter_mult: 0.9711171216351777 (+0.03184095532256315, -0.030540984385882042); 1278.1857223070153 (+41.909110210503684, -40.198086633983856) ppm
+
+Completed emcee fit.
+-------------------------
+=========================
+Saving results
+
+Total time (min): 43.35

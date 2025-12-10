@@ -1,0 +1,57 @@
+
+Starting Stage 4: Generate Light Curves
+
+Input directory: ./Stage3/S3_2025-03-11_wasp-107b_run1/ap5_bg11/
+Output directory: ./Stage4/S4_2025-05-21_wasp-107b_run1/ap5_bg11/
+Copying S4 control file
+Loading S3 save file:
+./Stage3/S3_2025-03-11_wasp-107b_run1/ap5_bg11/S3_wasp-107b_ap5_bg11_SpecData.h5
+Stage 4 MAD = 3347.56 ppm
+Generating light curves
+  Bandpass 0 = 3.900 - 5.000
+  Identified 2 outliers for wavelength 4.4500 microns
+  Sigma clipped 2 outliers in time series
+    MAD = 281 ppm
+Saving results...
+
+Total time (min): 0.04
+
+Starting Stage 5: Light Curve Fitting
+
+Eureka! Version: 1.2.2.dev0+g8f2dd20a.d20250522
+Input directory: ./Stage4/S4_2025-05-21_wasp-107b_run1/ap5_bg11/
+Output directory: ./Stage5/S5_2025-06-04_wasp-107b_run1/ap5_bg11/
+Copying S5 control file
+Copying S5 parameter control file
+
+Starting Channel 0 of 1
+
+=========================
+Starting emcee fit.
+No covariance matrix from LSQ - falling back on a step size based on the prior range
+Starting lnprob: -1816278.8694353714
+Running emcee burn-in and production steps...
+Ending lnprob: 4198.043609453949
+Mean acceptance fraction: 0.327
+Mean autocorrelation time: 255.867 steps
+Reduced Chi-squared: 1.0005471101685437
+
+EMCEE RESULTS:
+rp: 0.14327418649690077 (+0.00024490387867398544, -0.0002219567716246762)
+t0: 60129.89191214156 (+2.6637637347448617e-05, -2.642937033670023e-05)
+inc: 89.71040889542873 (+0.17807830851035078, -0.15334219481266587)
+a: 18.08221136440369 (+0.0555502027343131, -0.08450545592004488)
+u1: 0.06998677848330873 (+0.01592464707902201, -0.014789263285332574)
+u2: 0.13704692785424533 (+0.06368941565027755, -0.05135332076443459)
+c0: 1.0070242545477344 (+1.4769901033329091e-05, -1.4879405189516248e-05)
+c1: -0.0007074543681388123 (+0.0001373628401585531, -0.000137922125429038)
+ypos: 0.002593033034255931 (+0.002145087244265226, -0.0021575053482598286)
+ywidth: -0.003029989536275931 (+0.005665317899682811, -0.00571646721555871)
+scatter_mult: 2.8501969725622356 (+0.08345575444255804, -0.0793977091431799); 292.2153262931812 (+8.556268479070248, -8.140218976988193) ppm
+
+Completed emcee fit.
+-------------------------
+=========================
+Saving results
+
+Total time (min): 116.09

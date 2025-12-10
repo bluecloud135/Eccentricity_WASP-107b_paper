@@ -1,0 +1,60 @@
+
+Starting Stage 4: Generate Light Curves
+
+Input directory: ./Stage3/S3_2025-05-14_wasp-107b_run1/ap5_bg11/
+Output directory: ./Stage4/S4_2025-05-21_wasp-107b_run1/ap5_bg11/
+Copying S4 control file
+Loading S3 save file:
+./Stage3/S3_2025-05-14_wasp-107b_run1/ap5_bg11/S3_wasp-107b_ap5_bg11_SpecData.h5
+Stage 4 MAD = 4589.06 ppm
+Generating light curves
+  Bandpass 0 = 5.000 - 10.500
+  Identified 11 outliers for wavelength 7.7500 microns
+  Sigma clipped 11 outliers in time series
+    MAD = 296 ppm
+Saving results...
+
+Total time (min): 0.02
+
+Starting Stage 5: Light Curve Fitting
+
+Eureka! Version: 1.2.2.dev0+g8f2dd20a.d20250522
+Input directory: ./Stage4/S4_2025-05-21_wasp-107b_run1/ap5_bg11/
+Output directory: ./Stage5/S5_2025-06-04_wasp-107b_run1/ap5_bg11/
+Copying S5 control file
+Copying S5 parameter control file
+Manually removing data points from meta.manual_clip...
+
+Starting Channel 0 of 1
+
+=========================
+Starting emcee fit.
+No covariance matrix from LSQ - falling back on a step size based on the prior range
+Starting lnprob: -5066700.783560611
+Running emcee burn-in and production steps...
+Ending lnprob: 27158.791051273798
+Mean acceptance fraction: 0.341
+Mean autocorrelation time: 233.065 steps
+Reduced Chi-squared: 0.9996365378079984
+
+EMCEE RESULTS:
+rp: 0.14324207900862113 (+0.00010278131838473148, -0.00010407280770521887)
+t0: 59963.96875216869 (+1.1669231753330678e-05, -1.1687225196510553e-05)
+inc: 89.45276757288245 (+0.044236049279746226, -0.04115255002263041)
+a: 17.96820827130026 (+0.035930301606974524, -0.035750306833790546)
+u1: 0.017606007726625492 (+0.003636617699792434, -0.0032811391193501016)
+u2: 0.37984481064400955 (+0.08524664562984108, -0.07050021881580215)
+c0: 1.0067261971787664 (+9.851078424771842e-06, -1.1918524546850051e-05)
+c1: 0.0006544373738730178 (+0.00011182218930063802, -9.495551096763558e-05)
+r0: 0.00028225470802044296 (+3.917453655245573e-05, -3.8567963534008316e-05)
+r1: 44.98170452303311 (+14.135157004637897, -11.472051892069764)
+ypos: 0.0040915581236355865 (+0.000854281419371568, -0.0008499017949217874)
+ywidth: -0.00029612128159791945 (+0.0010517391442139137, -0.001055908202976168)
+scatter_mult: 1.586107524954065 (+0.01761920349126167, -0.017431890001814887); 320.76726377640756 (+3.5632285988778785, -3.525347159862579) ppm
+
+Completed emcee fit.
+-------------------------
+=========================
+Saving results
+
+Total time (min): 226.23

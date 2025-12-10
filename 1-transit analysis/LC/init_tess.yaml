@@ -1,0 +1,6 @@
+WASP-107b :
+  indir : 'wasp-107b/'
+  name : 'WASP-107b'
+  period : 5.72148926
+  IDs : ['DDT085','DDT085-1']
+  instrument : ['TESS', 'TESS']
