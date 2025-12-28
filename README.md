@@ -1,11 +1,11 @@
-# Exploring the Non-zero Eccentricity of WASP-107~b
+# Exploring the Nonzero Eccentricity of WASP-107 b
 
 [![DOI](https://zenodo.org/badge/DOI/10.XXXX/zenodo.XXXXXX.svg)](https://doi.org/XXXX) <!-- ADD ACTUAL DOI BADGE -->
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 This repository contains the data and analysis code for the paper:
 
-**Confirmation of Non-zero Eccentricity for the Super-Puff Exoplanet WASP-107~b using JWST Occultation Observation**
+**Confirmation of Nonzero Eccentricity for the Superpuff Exoplanet WASP-107 b Using JWST Occultation Observation**
 
 ## 📁 Repository Contents
 - `0-data/`: Raw data and files for data processing
@@ -17,5 +17,7 @@ This repository contains the data and analysis code for the paper:
   - `1-transit analysis/TTV/`: Transit timing variations analyzed with linear and orbital decay models
 
 - `2-joint fitting/`: Combined global fit using eclipse, radial velocity, and transit data
+  - `2-joint fitting/*.txt`: Data files for the joint analysis.
+  - `2-joint fitting/joint_fitting.ipynb`: Jupyter notebook performing the global fit.
 
 - `parameters.json`: Planetary system parameters used in analysis
