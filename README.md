@@ -1,11 +1,11 @@
 # Exploring the Nonzero Eccentricity of WASP-107 b
 
-[![DOI](https://zenodo.org/badge/DOI/10.XXXX/zenodo.XXXXXX.svg)](https://doi.org/XXXX) <!-- ADD ACTUAL DOI BADGE -->
+[![DOI](https://zenodo.org/badge/DOI/10.3847/2041-8213/ae2ac8.svg)](https://doi.org/10.3847/2041-8213/ae2ac8) <!-- ADD ACTUAL DOI BADGE -->
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 This repository contains the data and analysis code for the paper:
 
-**Confirmation of Nonzero Eccentricity for the Superpuff Exoplanet WASP-107 b Using JWST Occultation Observation**
+**Evidence for a Nonzero Eccentricity Superpuff Exoplanet WASP-107 b Using JWST Occultation Observation**
 
 ## 📁 Repository Contents
 - `0-data/`: Raw data and files for data processing
